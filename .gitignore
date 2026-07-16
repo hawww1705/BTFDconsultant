@@ -3,3 +3,6 @@ Thumbs.db
 *.log
 validate_html.py
 process_logo.py
+
+.vercel
+.env*
