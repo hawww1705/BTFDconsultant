@@ -1,0 +1,5 @@
+.DS_Store
+Thumbs.db
+*.log
+validate_html.py
+process_logo.py

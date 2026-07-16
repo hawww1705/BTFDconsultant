@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTFD | Accounting, Auditing, Taxation & Management Advisory</title>
+    <meta name="description" content="BTFD is a premier professional services firm specializing in Accounting, Auditing, Taxation, and Management Advisory. Professionalism is our pledge to you.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="has-transparent-hero">
+
+    <!-- Sticky Header & Navigation -->
+    <header class="header transparent">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="BTFD Logo">
+            </a>
+            
+            <!-- Mobile Toggle -->
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Nav Links -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="accounting-auditing.html" class="nav-link">Accounting & Auditing</a></li>
+                <li><a href="taxation.html" class="nav-link">Taxation</a></li>
+                <li><a href="management-advisory.html" class="nav-link">Management Advisory</a></li>
+                <li><a href="founders.html" class="nav-link">Profile of Founders</a></li>
+                <li><a href="contacts.html" class="nav-link">Contacts</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="grid-2">
+                <div class="hero-content animate-on-scroll">
+                    <span class="hero-badge">Professional Corporate Advisory</span>
+                    <h1>Professional Accounting, Tax & Business Advisory Services</h1>
+                    <div class="hero-motto">
+                        Professionalism Is Our Pledge To You
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#services" class="btn btn-primary">Explore Services</a>
+                        <a href="contacts.html" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+                
+                <div class="hero-illustration animate-on-scroll delay-2">
+                    <!-- Premium Business Illustration SVG -->
+                    <svg viewBox="0 0 500 400" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Background Circle Glows -->
+                        <circle cx="250" cy="200" r="180" fill="none" stroke="rgba(11, 76, 156, 0.2)" stroke-width="1.5" />
+                        <circle cx="250" cy="200" r="140" fill="none" stroke="rgba(214, 30, 53, 0.1)" stroke-width="1.5" stroke-dasharray="8 8" />
+                        
+                        <!-- Floating Glassmorphic UI Elements -->
+                        <g transform="translate(40, 60)">
+                            <!-- Document / Tax card -->
+                            <rect x="0" y="0" width="130" height="90" rx="12" fill="rgba(255, 255, 255, 0.1)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+                            <path d="M20 20 H70 M20 35 H110 M20 50 H90 M20 65 H50" stroke="rgba(255,255,255,0.4)" stroke-width="3" stroke-linecap="round" />
+                            <circle cx="105" cy="22" r="8" fill="#D61E35" />
+                        </g>
+
+                        <g transform="translate(300, 240)">
+                            <!-- Auditing / Check Card -->
+                            <rect x="0" y="0" width="140" height="100" rx="14" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1" />
+                            <circle cx="35" cy="50" r="20" fill="rgba(11, 76, 156, 0.4)" />
+                            <!-- Checkmark -->
+                            <path d="M28 50 L33 55 L42 45" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                            <rect x="70" y="35" width="50" height="8" rx="4" fill="rgba(255,255,255,0.4)" />
+                            <rect x="70" y="55" width="40" height="8" rx="4" fill="rgba(255,255,255,0.2)" />
+                        </g>
+                        
+                        <!-- Center Analytics / Growth Graphic -->
+                        <g transform="translate(100, 110)">
+                            <!-- Grid Background -->
+                            <rect x="0" y="0" width="300" height="180" rx="18" fill="rgba(13, 22, 37, 0.4)" stroke="rgba(11, 76, 156, 0.3)" stroke-width="1.5" />
+                            
+                            <!-- Graph Lines -->
+                            <path d="M 30 140 L 90 100 L 150 115 L 210 60 L 270 30" fill="none" stroke="#D61E35" stroke-width="3" stroke-linecap="round" />
+                            <path d="M 30 140 L 90 100 L 150 115 L 210 60 L 270 30 L 270 150 L 30 150 Z" fill="url(#blue-grad)" opacity="0.15" />
+                            
+                            <!-- Main Blue Line -->
+                            <path d="M 30 120 L 90 70 L 150 85 L 210 40 L 270 15" fill="none" stroke="#0B4C9C" stroke-width="4" stroke-linecap="round" />
+                            <path d="M 30 120 L 90 70 L 150 85 L 210 40 L 270 15 L 270 150 L 30 150 Z" fill="url(#blue-grad-2)" opacity="0.3" />
+                            
+                            <!-- Nodes -->
+                            <circle cx="270" cy="15" r="6" fill="#0B4C9C" stroke="#FFFFFF" stroke-width="2" />
+                            <circle cx="210" cy="40" r="4" fill="#0B4C9C" stroke="#FFFFFF" stroke-width="1.5" />
+                            <circle cx="270" cy="30" r="6" fill="#D61E35" stroke="#FFFFFF" stroke-width="2" />
+                            
+                            <!-- X Axis line -->
+                            <line x1="20" y1="150" x2="280" y2="150" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+                        </g>
+
+                        <!-- Gradients definition -->
+                        <defs>
+                            <linearGradient id="blue-grad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#D61E35" />
+                                <stop offset="100%" stop-color="#D61E35" stop-opacity="0" />
+                            </linearGradient>
+                            <linearGradient id="blue-grad-2" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#0B4C9C" />
+                                <stop offset="100%" stop-color="#0D1625" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Hero Stats Panel -->
+            <div class="hero-stats-panel animate-on-scroll delay-3">
+                <div class="glass-card">
+                    <div class="number counter" data-target="15" data-suffix="+">0</div>
+                    <div class="label">Years of Experience</div>
+                </div>
+                <div class="glass-card">
+                    <div class="number counter" data-target="50" data-suffix="+">0</div>
+                    <div class="label">Professional Consultants</div>
+                </div>
+                <div class="glass-card">
+                    <div class="number counter" data-target="800" data-suffix="+">0</div>
+                    <div class="label">Corporate Clients</div>
+                </div>
+                <div class="glass-card">
+                    <div class="number counter" data-target="34" data-suffix=" provinces">0</div>
+                    <div class="label">Nationwide Presence</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About BTFD Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <div class="grid-2">
+                <div class="animate-on-scroll">
+                    <h2>About BTFD</h2>
+                    <p class="lead mt-2">A trusted partner for corporate financial health, tax intelligence, compliance audit, and corporate governance.</p>
+                    <p class="mt-2">BTFD was established to provide top-tier professional consulting services to corporations, multinational companies, and scaling local businesses. Our deep expertise in regional business ecosystems, global accounting practices, and shifting taxation laws allows us to offer unmatched strategic advisory.</p>
+                    <p class="mt-2">We represent trust, integrity, and corporate excellence. Our multidisciplinary approach solves complex business challenges, securing compliance and unlocking growth potentials.</p>
+                </div>
+                
+                <div class="animate-on-scroll delay-2">
+                    <div class="about-features">
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Certified Accounting & Auditing</h4>
+                                <p>Rigorous financial auditing ensuring transparency, compliance, and risk mitigation.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Strategic Taxation Intelligence</h4>
+                                <p>Comprehensive corporate tax planning, compliance audits, and legal tax defense.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Management Advisory & Restructuring</h4>
+                                <p>Transforming business operations, digital integration, and financial planning.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-feature-item">
+                            <div class="about-feature-icon">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Corporate Governance</h4>
+                                <p>Establishing robust internal frameworks, compliance models, and ethical metrics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose BTFD Section -->
+    <section class="why-choose-section section-padding">
+        <div class="container">
+            <div class="text-center mb-6 animate-on-scroll">
+                <h2>Why Choose BTFD</h2>
+                <p class="lead mt-2">Partnering with corporate clients to achieve long-term fiscal security and growth.</p>
+            </div>
+            
+            <div class="grid-3">
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                    </div>
+                    <h3>Professional Experts</h3>
+                    <p>Our consulting team consists of certified public accountants, licensed tax consultants, and strategic business process leaders.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll delay-1">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
+                    </div>
+                    <h3>Trusted Services</h3>
+                    <p>We pride ourselves on offering precise advice. We keep corporate frameworks aligned with regulatory updates.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll delay-2">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <h3>Integrity & Confidentiality</h3>
+                    <p>Confidentiality is the cornerstone of our profession. We secure all sensitive corporate data with strict internal governance protocols.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3>Business Growth Focus</h3>
+                    <p>We don't just calculate tax and audits; we identify bottlenecks, forecast options, and help scale operations.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll delay-1">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3>Client-Centered Approach</h3>
+                    <p>Our solutions are tailor-made for each firm. We study your organizational structure to offer maximum utility.</p>
+                </div>
+                
+                <div class="feature-card animate-on-scroll delay-2">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h1.5A2.5 2.5 0 0019 9.5V8a2 2 0 00-2-2h-1.5A2 2 0 0112 4V3.5A2.5 2.5 0 009.5 1h-1.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3>National Experience</h3>
+                    <p>Having completed projects across all 34 provinces of Indonesia, we are equipped to support companies with regional branches.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="services-section section-padding" id="services">
+        <div class="container">
+            <div class="text-center mb-6 animate-on-scroll">
+                <h2>Our Core Services</h2>
+                <p class="lead mt-2">Strategic corporate practices designed to establish stability, compliance, and growth.</p>
+            </div>
+            
+            <div class="grid-4">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <h3>Accounting & Auditing</h3>
+                    <p>Comprehensive external and internal audit solutions, detailed corporate bookkeeping, and expert standard reporting.</p>
+                    <a href="accounting-auditing.html" class="btn-text">Learn More <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll delay-1">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <h3>Taxation</h3>
+                    <p>Licensed tax consulting, legal corporate filings, tax objection processing, planning, and structural review.</p>
+                    <a href="taxation.html" class="btn-text">Learn More <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll delay-2">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                    </div>
+                    <h3>Management Advisory</h3>
+                    <p>Re-engineering corporate structure, digital consulting, internal risk management, and growth forecasting.</p>
+                    <a href="management-advisory.html" class="btn-text">Learn More <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                </div>
+                
+                <div class="service-card animate-on-scroll delay-3">
+                    <div class="service-icon">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3>Business Consulting</h3>
+                    <p>Guiding new corporations through national laws, structural setups, licenses, mergers, and market entry.</p>
+                    <a href="management-advisory.html" class="btn-text">Learn More <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Process Timeline -->
+    <section class="timeline-section section-padding">
+        <div class="container">
+            <div class="text-center mb-6 animate-on-scroll">
+                <h2>Our Client Engagement Process</h2>
+                <p class="lead mt-2">A structured, collaborative roadmap to ensure professional execution and measurable outcomes.</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-badge">1</div>
+                    <div class="timeline-card">
+                        <h3>Consultation</h3>
+                        <p>We begin with a deep exploration of your organization's financial state, administrative obstacles, and scaling goals.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate-on-scroll delay-1">
+                    <div class="timeline-badge">2</div>
+                    <div class="timeline-card">
+                        <h3>Analysis</h3>
+                        <p>Our specialists audit historical files, inspect structures, and run feasibility audits to locate exposure areas.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate-on-scroll delay-2">
+                    <div class="timeline-badge">3</div>
+                    <div class="timeline-card">
+                        <h3>Planning</h3>
+                        <p>We prepare a bespoke compliance roadmap or advisory framework detailing key deadlines, savings, and procedures.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-badge">4</div>
+                    <div class="timeline-card">
+                        <h3>Implementation</h3>
+                        <p>Our team integrates systems, adjusts tax records, runs standard audits, and deploys governance tools directly alongside yours.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate-on-scroll delay-1">
+                    <div class="timeline-badge">5</div>
+                    <div class="timeline-card">
+                        <h3>Continuous Support</h3>
+                        <p>We maintain an ongoing partnership, keeping records current, performing audits, and guiding key executive boards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding">
+        <div class="container">
+            <div class="text-center mb-4 animate-on-scroll">
+                <h2>What Our Clients Say</h2>
+                <p class="lead mt-2">Trusted by corporate boards, business founders, and multinational enterprises.</p>
+            </div>
+            
+            <div class="testimonial-carousel animate-on-scroll">
+                <div class="testimonial-slider">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">BTFD completely restructured our tax optimization strategy, saving us significant resources while ensuring complete compliance. Their integrity and professionalism are outstanding.</p>
+                            <div class="testimonial-author">
+                                <h4>Marcus Sterling</h4>
+                                <p>CFO, Nexa Industries Global</p>
+                            </div>
+                            <div class="company-logo-placeholder">NEXA INDUSTRIES</div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">During our multinational merger, BTFD's Management Advisory team acted as our primary structural consultant. Their regional tax planning and transition risk audits were invaluable.</p>
+                            <div class="testimonial-author">
+                                <h4>Diana Kusuma</h4>
+                                <p>VP Operations, Mandala Logistics</p>
+                            </div>
+                            <div class="company-logo-placeholder">MANDALA GROUP</div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">“</div>
+                            <p class="testimonial-text">Their external audit framework is rigorous. They helped prepare our corporate transparency reports, securing our investor credentials. Professionalism is indeed their pledge.</p>
+                            <div class="testimonial-author">
+                                <h4>Richard Vance</h4>
+                                <p>Managing Director, Zenith Capital Partners</p>
+                            </div>
+                            <div class="company-logo-placeholder">ZENITH CAPITAL</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section section-padding">
+        <div class="cta-bg"></div>
+        <div class="container text-center animate-on-scroll">
+            <h2>Ready to Grow Your Business with Confidence?</h2>
+            <p class="mt-2">Speak with our certified accounting, taxation, and business advisors today to optimize your corporate framework.</p>
+            <div class="cta-buttons mt-4">
+                <a href="contacts.html" class="btn btn-primary">Contact Us</a>
+                <a href="contacts.html#faq" class="btn btn-secondary">Schedule Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <img src="assets/logo.png" alt="BTFD Logo">
+                    <p>BTFD is a premier professional corporate services firm delivering certified accounting, auditing, strategic taxation solutions, and management advisory services.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" aria-label="LinkedIn">
+                            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="#" class="social-icon" aria-label="Twitter">
+                            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="founders.html">Profile of Founders</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="contacts.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="accounting-auditing.html">Auditing</a></li>
+                        <li><a href="accounting-auditing.html">Accounting Services</a></li>
+                        <li><a href="taxation.html">Tax Consulting</a></li>
+                        <li><a href="management-advisory.html">Management Advisory</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Office Address</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                            <span>Sudirman Central Business District (SCBD), Tower 24, Jakarta, Indonesia</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                            <span>+62 21 5550 900</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <span>advisory@btfd.co.id</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="map-placeholder">
+                        <!-- Embedded Google Maps SCBD Placeholder -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2547631388836!2d106.80854497475058!3d-6.229444193758652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f15024a8ff3f%3A0x6b87640248ab22d0!2sSCBD!5e0!3m2!1sen!2sid!4v1715694200000!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 BTFD. All Rights Reserved. Professionalism Is Our Pledge To You.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
